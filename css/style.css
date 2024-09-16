@@ -1,0 +1,73 @@
+body{
+    margin: 30px;
+}
+
+#miai{
+    text-align: center;
+    margin-top: 50px;
+    height: 100px;
+}
+
+#foto1{
+    float: left;
+
+}
+
+h1{
+    float: left ;
+    margin-top: 65px;
+    margin-left: 15px;
+}
+
+#container{
+    float: right;
+    margin-top: 40px; 
+}
+
+
+#boto {
+    margin-right: 100px;
+    text-align: center;
+    color: rgb(255, 255, 255); 
+    font-size: 19px; 
+    line-height: 19px; 
+    padding-left: 50px; 
+    padding-right: 50px; 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+
+    border-radius: 28px; 
+    font-family: Georgia, serif; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-color: rgb(108, 152, 255); 
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; 
+    border: 2px solid rgb(108, 152, 255); 
+    display: inline-block;
+}
+
+#boto:hover {
+    background-color: rgb(45, 91, 197); 
+    
+}
+
+#boto:active {
+    background-color: rgb(45, 91, 197); 
+}
+
+#container #boto a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0px;
+    word-spacing: -0.2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+
