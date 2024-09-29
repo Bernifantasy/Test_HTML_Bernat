@@ -1,7 +1,6 @@
 #container-page{
 
-    background-color: rgb(50, 108, 159);
-
+    background-color: rgb(172, 126, 126);
 }
 
 
@@ -12,12 +11,11 @@
 }
 
 
-.flex-container{
+#first-line{
     width: 100%;
-    text-align: center;
     display: flex;
-}
 
+}
 
 
 #first-line-left{
@@ -29,14 +27,17 @@
 
 #first-line-right{
     width: 100%;
-    text-align: center;
     background-color: blue;
 }
 
 
+#second-line{
+    width: 100%;
+    display: flex;
+}
+
 #second-line-left{
     width: 100%;
-    text-align: center;
     background-color: brown;
 }
 
@@ -44,7 +45,6 @@
 
 #second-line-middle{
     width: 100%;
-    text-align: center;
     background-color: rgb(81, 158, 161);
 }
 
@@ -52,14 +52,12 @@
 
 #second-line-right{
     width: 100%;
-    text-align: center;
     background-color: coral;
 }
 
 
 
-#footer{
+#footer-page{
     width: 100%;
-    background-color: rgb(59, 47, 137);
 }
 

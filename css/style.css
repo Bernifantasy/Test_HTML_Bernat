@@ -1,4 +1,6 @@
-
+body{
+    background-color: rgb(232, 242, 255);
+}
 
 header{
     text-align: center;
@@ -16,6 +18,8 @@ header{
 h1{
     float: left;
 }
+
+
 
 #container{
     float: right;
@@ -67,3 +71,38 @@ h1{
     text-transform: uppercase;
 }
 
+#content{
+    margin: 30px;
+}
+
+#content h1{
+
+    width: 100%;
+    float: left;
+
+}
+
+table {
+    width: 40%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+td{
+    border: 1px solid black;
+    padding: 12px 15px;
+
+}
+
+thead{
+    background-color: rgb(204, 204, 204);
+}
+
+tbody{
+    background-color: #cbd3ff;
+}
