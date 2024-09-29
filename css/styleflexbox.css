@@ -1,0 +1,65 @@
+#container-page{
+
+    background-color: rgb(50, 108, 159);
+
+}
+
+
+
+#header{
+    width: 100%;
+    background-color: rgb(194, 160, 115);
+}
+
+
+.flex-container{
+    width: 100%;
+    text-align: center;
+    display: flex;
+}
+
+
+
+#first-line-left{
+    width: 100%;
+    background-color: deeppink;
+}
+
+
+
+#first-line-right{
+    width: 100%;
+    text-align: center;
+    background-color: blue;
+}
+
+
+#second-line-left{
+    width: 100%;
+    text-align: center;
+    background-color: brown;
+}
+
+
+
+#second-line-middle{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(81, 158, 161);
+}
+
+
+
+#second-line-right{
+    width: 100%;
+    text-align: center;
+    background-color: coral;
+}
+
+
+
+#footer{
+    width: 100%;
+    background-color: rgb(59, 47, 137);
+}
+
