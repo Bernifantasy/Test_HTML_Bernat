@@ -1,63 +1,59 @@
-#container-page{
-
-    background-color: rgb(172, 126, 126);
-}
-
-
-
-#header{
-    width: 100%;
-    background-color: rgb(194, 160, 115);
-}
-
-
-#first-line{
-    width: 100%;
+/* Estil general */
+#container-page {
     display: flex;
-
+    flex-direction: column; 
+    min-height: 100vh; 
+    padding: 20px; 
+    box-sizing: border-box; 
 }
 
-
-#first-line-left{
-    width: 100%;
-    background-color: deeppink;
+/* Estil header */
+#header {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 20px; 
+    text-align: center; 
 }
 
-
-
-#first-line-right{
-    width: 100%;
-    background-color: blue;
+/* Estil primera linia */
+#first-line {
+    display: flex; 
+    justify-content: space-between; 
+    margin: 20px 0; 
 }
 
-
-#second-line{
-    width: 100%;
+/* Estil segona linia */
+#second-line {
     display: flex;
+    justify-content: space-between; 
+    margin: 20px 0; 
 }
 
-#second-line-left{
-    width: 100%;
-    background-color: brown;
+/* Primera linia */
+#first-line-left, #first-line-right {
+    flex: 1; 
+    padding: 10px; 
+    text-align: center; 
+    background-color: #e7e7e7; 
+    margin: 0 10px; 
 }
 
-
-
-#second-line-middle{
-    width: 100%;
-    background-color: rgb(81, 158, 161);
+/* Segona linia */
+#second-line-left, #second-line-middle, #second-line-right {
+    flex: 1;
+    padding: 10px; 
+    text-align: center; 
+    background-color: #d9d9d9;
+    margin: 0 10px; 
 }
 
+@media (max-width: 768px) {
+    #first-line, #second-line {
+        flex-direction: column; 
+    }
 
-
-#second-line-right{
-    width: 100%;
-    background-color: coral;
+    #first-line-left, #first-line-right,
+    #second-line-left, #second-line-middle, #second-line-right {
+        margin-bottom: 10px;
+    }
 }
-
-
-
-#footer-page{
-    width: 100%;
-}
-
