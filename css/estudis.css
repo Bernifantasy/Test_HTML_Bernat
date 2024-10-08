@@ -1,4 +1,3 @@
-/* Estilo general para la tabla en pantallas grandes */
 #titol_estudis {
     text-align: center;
     font-size: 2em;
@@ -35,9 +34,7 @@ tbody td {
     border-bottom: 1px solid #ddd;
 }
 
-/* Media queries para pantallas medianas y pequeñas */
 @media (max-width: 1024px) {
-    /* Ajustes para pantallas medianas */
     table {
         width: 100%;
         max-width: 800px;
@@ -45,20 +42,19 @@ tbody td {
     }
 
     tbody td {
-        text-align: center; /* Centramos el texto */
+        text-align: center; 
         padding: 10px;
     }
 }
 
 @media (max-width: 600px) {
-    /* Ajustes para pantallas pequeñas (móviles) */
     table, thead, tbody, td, tr {
         display: block;
         width: 100%;
     }
 
     thead {
-        display: none; /* Ocultar encabezado en pantallas pequeñas */
+        display: none; 
     }
 
     tbody tr {
@@ -68,14 +64,14 @@ tbody td {
 
     tbody td {
         display: block;
-        text-align: center; /* Centramos el texto en pantallas pequeñas */
+        text-align: center;
         padding: 10px;
         border: none;
         position: relative;
     }
 
     tbody td:before {
-        content: attr(data-label); /* Mostramos el label de cada celda */
+        content: attr(data-label);
         display: block;
         font-weight: bold;
         text-transform: uppercase;

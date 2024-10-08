@@ -1,11 +1,9 @@
-/* Mantener el estilo base sin tocar el HTML y body */
 #content {
     padding: 20px;
     background-color: #f9f9f9;
     box-sizing: border-box;
 }
 
-/* Ajustar el footer */
 footer {
     padding: 20px;
     background-color: #f1f1f1;
@@ -30,14 +28,12 @@ footer h2 {
     margin: 0;
 }
 
-/* Evitar que el footer interfiera con el contenido cuando es más largo que la ventana */
 @media (min-height: 100vh) {
     footer {
         position: relative;
     }
 }
 
-/* Responsividad para pantallas pequeñas (móviles) */
 @media (max-width: 600px) {
     footer {
         padding: 15px;
@@ -52,7 +48,6 @@ footer h2 {
     }
 }
 
-/* Responsividad para pantallas medianas (tablets) */
 @media (min-width: 601px) and (max-width: 1024px) {
     footer {
         padding: 20px;
@@ -63,7 +58,6 @@ footer h2 {
     }
 }
 
-/* Para pantallas grandes (escritorio) */
 @media (min-width: 1025px) {
     footer {
         padding: 25px;
