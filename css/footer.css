@@ -1,16 +1,5 @@
-html, body {
-    height: 100%;
-}
-body{
-    display: flex;
-    flex-direction: column;
-}
-
-
-
 /* Mantener el estilo base sin tocar el HTML y body */
 #content {
-    flex: 1;
     padding: 20px;
     background-color: #f9f9f9;
     box-sizing: border-box;
